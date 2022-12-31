@@ -1,0 +1,7 @@
+- requestFilter: 'isFormat("html") && parentRequest.isPackage("Neos.Neos") && isPackage("Neos.Media.Browser") && isController("Asset") && isAction("replaceAssetResource")'
+  options:
+    templateRootPaths:
+      'CodeQ.BeachAssetRedirectionWarning': 'resource://CodeQ.BeachAssetRedirectionWarning/Private/Templates'
+      'Neos.Media.Browser': 'resource://Neos.Media.Browser/Private/Templates'
+    layoutRootPaths:
+      'Neos.Media.Browser': 'resource://Neos.Media.Browser/Private/Layouts/Module'

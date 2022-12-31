@@ -1,0 +1,13 @@
+{
+    "name": "codeq/beach-asset-redirection-warning",
+    "description": "",
+    "type": "neos-package",
+    "require": {
+        "neos/media-browser": "^7.0 || ^8.0"
+    },
+    "extra": {
+        "neos": {
+            "package-key": "CodeQ.BeachAssetRedirectionWarning"
+        }
+    }
+}
